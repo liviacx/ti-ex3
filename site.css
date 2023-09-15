@@ -1,0 +1,48 @@
+.cadastro{
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    text-align-last:center;
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    margin: 0 auto; /* Centraliza o bloco na página */
+    width: 50%; /* Define a largura do bloco */
+    font-size: 1.5rem; /* Define o tamanho da fonte */
+    font-family: arial, sans-serif; /* Define a fonte utilizada */
+    margin-top: 200px;
+    
+
+}
+.cadastro input[type="text"],
+.cadastro input[type="submit"] {
+    width: 30%; /* Define a largura das caixas de texto e do botão como 100% */
+    padding: 10px; /* Adicione preenchimento para melhorar a aparência */
+    margin-bottom: 10px; /* Adicione espaçamento inferior entre os elementos */
+    font-size: 1.2rem; /* Ajuste o tamanho da fonte para os elementos de entrada */
+}
+
+.detalhes{
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    text-align-last:center;
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    margin: 0 auto; /* Centraliza o bloco na página */
+    width: 50%; /* Define a largura do bloco */
+    font-size: 1.5rem; /* Define o tamanho da fonte */
+    font-family: arial, sans-serif; /* Define a fonte utilizada */
+    margin-top: 30px;
+    
+
+}
+.detalhes input[type="text"],
+.detalhes input[type="submit"] {
+    width: 10%; /* Define a largura das caixas de texto e do botão como 100% */
+    padding: 10px; /* Adicione preenchimento para melhorar a aparência */
+    margin-bottom: 10px; /* Adicione espaçamento inferior entre os elementos */
+    font-size: 1.2rem; /* Ajuste o tamanho da fonte para os elementos de entrada */
+}
+
+
+body{
+    background-color: antiquewhite;
+}
