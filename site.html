@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="cadastro">
+        <p> Cadastro: </p>
+
+        <form id="cadastroForm">
+            <input type="text" name="regiao" placeholder="região do rosto">
+            <input type="text" name="marca" placeholder="marca">
+            <input type="text" name="produto" placeholder="produto">
+            <input type="submit" name="enviar" value="enviar">
+        </form>
+    </div>
+
+    <div class="detalhes">
+        <p> Editar produto: </p>
+        <input type="text" id="editarId" placeholder="id">
+        <input type="submit" id="editarBtn" value="Editar">
+        <p> Remover produto: </p>
+        <input type="text" id="removerId" placeholder="id">
+        <input type="submit" id="removerBtn" value="Remover">
+        <p> Listar: </p>
+        <button id="listarBtn">Listar todos</button>
+    </div>
+
+    <div class="listagem" style="display: none;">
+        <h2>Lista de Produtos Cadastrados</h2>
+        <ul id="listaProdutos"></ul>
+    </div>
+    
+
+</body>
+</html>
